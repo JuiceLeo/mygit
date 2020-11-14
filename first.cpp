@@ -6,10 +6,14 @@
 *****************************************************/
  
 #include <iostream>
- 
+#include "myheader.h"
+
 using namespace std;
  
 int main()
 {
  	cout << "hello c++" << endl;
+
+	test_enum();
+
 }
